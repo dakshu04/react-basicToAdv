@@ -1,9 +1,10 @@
 import Youtube from "./Youtube"
 function App() {
+  const username = "daksh"
   return (
     <>
-      <h1>Vite React app</h1>
-      <h1>Vite React app</h1>
+      <h1>Vite React app {2+2}</h1>
+      <h1>Vite React app {username}</h1>
       <Youtube/>
     </>
   )
